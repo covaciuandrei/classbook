@@ -1,12 +1,24 @@
-import logo from "../src/assets/images/logo.svg";
+import React, { useState } from "react";
 import "./App.css";
+import Sidebar from "./components/sidebar/sidebar";
 
 function App() {
+  const [isSidebarClosed, setSidebarClosed] = useState(true);
+
+  const toggleSidebar = () => {
+    setSidebarClosed(!isSidebarClosed);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div
+      className={`App ${
+        isSidebarClosed ? "App-sidebar-close" : "App-sidebar-open"
+      }`}
+    >
+      <Sidebar
+        isSidebarClosed={isSidebarClosed}
+        toggleSidebar={toggleSidebar}
+      />
     </div>
   );
 }
