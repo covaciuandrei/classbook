@@ -1,0 +1,26 @@
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.nav li {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.nav a {
+  font-size: 16;
+  padding: 6px;
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.nav a:hover {
+  background-color: lightblue;
+  border: 2px solid rgb(95, 181, 210);
+  border-radius: 20px;
+}

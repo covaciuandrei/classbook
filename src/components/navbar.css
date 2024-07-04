@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+/* .container {
+  background-color: rgb(179, 181, 242);
+} */
+
+.navbar {
+  color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+hr {
+  margin: 0;
+}

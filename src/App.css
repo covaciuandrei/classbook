@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height to center vertically */
+  height: 100vh;
 }
 
 .App-header {
-  text-align: center; /* Center text within the header if necessary */
+  text-align: center;
 }
 
 .App-logo {
