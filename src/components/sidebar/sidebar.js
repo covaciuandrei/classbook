@@ -1,6 +1,6 @@
+import logo from "assets/images/lion_logo.jpg";
 import "boxicons/css/boxicons.min.css";
-import React, { useEffect, useState } from "react";
-import logo from "./logo.jpg";
+import { useEffect, useState } from "react";
 import "./sidebar.css";
 
 const Sidebar = ({ isSidebarClosed, toggleSidebar }) => {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import Sidebar from "../sidebar/sidebar";
 import "./App.css";
-import Sidebar from "./components/sidebar/sidebar";
 
 function App() {
   const [isSidebarClosed, setSidebarClosed] = useState(true);
